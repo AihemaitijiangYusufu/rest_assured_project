@@ -32,4 +32,15 @@ public class SimpleRestDemo {
 
 
     }
+
+    @Test
+    public void headersTest(){
+        Response response=RestAssured.get("https://uinames.com/api/");
+        System.out.println(response.headers());
+
+        String contentType=response.header("Content-Type");
+        System.out.println(contentType);
+
+        Assert.assertEquals("application/json; charset=utf-8",contentType);
+    }
 }
