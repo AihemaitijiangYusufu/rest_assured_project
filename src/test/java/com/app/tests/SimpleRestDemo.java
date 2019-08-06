@@ -43,4 +43,14 @@ public class SimpleRestDemo {
 
         Assert.assertEquals("application/json; charset=utf-8",contentType);
     }
+
+    @Test
+    public void statusLineTest(){
+
+        Response response=RestAssured.get("https://uinames.com/api/");
+       //statusLine --> returns all the information in the status line of the reponse
+        String statusLine=response.statusLine();
+        System.out.println(statusLine);
+        Assert.assertTrue(statusLine.contains("200"));
+    }
 }
