@@ -29,4 +29,24 @@ public class BaseURIDemo {
         Assert.assertTrue(response.asString().contains("Cersei Lannister"));
 
     }
+
+    @Test
+    public void littlefingerQuoteTest(){
+
+        RestAssured.baseURI="https://got-quotes.herokuapp.com/";
+        Response response=RestAssured.get("quotes?char=littlefinger");
+        response.prettyPrint();
+        Assert.assertTrue(response.asString().contains("Littlefinger"));
+    }
+
+    @Test
+    public void jaimeQuoteTest(){
+
+        RestAssured.baseURI="https://got-quotes.herokuapp.com/";
+        Response response=RestAssured.get("quotes?char=jaime");
+        response.prettyPrint();
+        Assert.assertTrue(response.asString().contains("Jaime Lannister"));
+
+
+    }
 }
