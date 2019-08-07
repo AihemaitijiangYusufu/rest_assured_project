@@ -20,5 +20,6 @@ public class githubAPI {
         given().pathParam("username","aihemaitijiangyusufu").
                 when().get("/users/{username}").prettyPrint();
 
+
     }
 }
