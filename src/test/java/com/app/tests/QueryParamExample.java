@@ -37,5 +37,13 @@ public class QueryParamExample {
 
     }
 
+    @Test
+    public void testEmailAndZipcode(){
+
+        given().queryParam("email","Telly.Hoeger@billy.biz").
+                queryParam("zipcode","58804-1099").
+                when().get().prettyPrint();
+    }
+
 
 }
