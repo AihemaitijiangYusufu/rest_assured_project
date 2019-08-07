@@ -3,7 +3,7 @@ package com.app.tests;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
-import org.hamcrest.Matchers;
+
 import org.junit.Test;
 
 import java.util.Arrays;
