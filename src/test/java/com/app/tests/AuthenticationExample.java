@@ -33,13 +33,25 @@ public class AuthenticationExample {
     }
 
     @Test
-    public void basicAuthentication(){
+    public void basicchallangedAuthentication(){
 
         // auth --> provides different types of authentication
        // based -->authentication using username and password
 
         RestAssured.given().
                 auth().basic("admin","admin").
+                when().get("https://the-internet.herokuapp.com/basic_auth").
+                then().log().all().statusCode(200);
+    }
+
+    @Test
+    public void basicPreemptiveAuthentication(){
+
+        // auth --> provides different types of authentication
+        // based -->authentication using username and password
+
+        RestAssured.given().
+                auth().preemptive().basic("admin","admin").
                 when().get("https://the-internet.herokuapp.com/basic_auth").
                 then().log().all().statusCode(200);
     }
