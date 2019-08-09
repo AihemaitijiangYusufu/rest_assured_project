@@ -5,3 +5,179 @@
 2019-08-09 15:49:49 INFO  loggingExample:22 - this is the test method: INFO
 2019-08-09 15:49:49 WARN  loggingExample:24 - this is the test method: WARN
 2019-08-09 15:49:49 INFO  loggingExample:31 - this is the after method
+2019-08-09 15:54:05 INFO  loggingExample:16 - this is the before method
+2019-08-09 15:54:05 INFO  loggingExample:22 - this is the test method: INFO
+2019-08-09 15:54:05 TRACE loggingExample:23 - this is the test method: TRACE
+2019-08-09 15:54:05 WARN  loggingExample:24 - this is the test method: WARN
+2019-08-09 15:54:05 INFO  loggingExample:31 - this is the after method
+2019-08-09 15:56:11 INFO  loggingExample:17 - this is the before method
+2019-08-09 15:56:11 INFO  loggingExample:23 - this is the test method: INFO
+2019-08-09 15:56:11 TRACE loggingExample:24 - this is the test method: TRACE
+2019-08-09 15:56:11 WARN  loggingExample:25 - this is the test method: WARN
+2019-08-09 15:56:13 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://uinames.com:443
+2019-08-09 15:56:13 DEBUG DefaultClientConnectionOperator:177 - Connecting to uinames.com:443
+2019-08-09 15:56:13 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2019-08-09 15:56:13 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-08-09 15:56:13 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2019-08-09 15:56:13 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2019-08-09 15:56:13 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2019-08-09 15:56:13 DEBUG DefaultClientConnection:274 - Sending request: GET /api/ HTTP/1.1
+2019-08-09 15:56:13 DEBUG wire:73 -  >> "GET /api/ HTTP/1.1[\r][\n]"
+2019-08-09 15:56:13 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2019-08-09 15:56:13 DEBUG wire:73 -  >> "Host: uinames.com[\r][\n]"
+2019-08-09 15:56:13 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-09 15:56:13 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.3)[\r][\n]"
+2019-08-09 15:56:13 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-09 15:56:13 DEBUG wire:73 -  >> "[\r][\n]"
+2019-08-09 15:56:13 DEBUG headers:278 - >> GET /api/ HTTP/1.1
+2019-08-09 15:56:13 DEBUG headers:281 - >> Accept: */*
+2019-08-09 15:56:13 DEBUG headers:281 - >> Host: uinames.com
+2019-08-09 15:56:13 DEBUG headers:281 - >> Connection: Keep-Alive
+2019-08-09 15:56:13 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.3)
+2019-08-09 15:56:13 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2019-08-09 15:56:14 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Date: Fri, 09 Aug 2019 19:56:13 GMT[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Set-Cookie: __cfduid=d9c733f42da0ec2196310b54890b368fd1565380573; expires=Sat, 08-Aug-20 19:56:13 GMT; path=/; domain=.uinames.com; HttpOnly[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "X-Powered-By: PHP/5.4.45[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Access-Control-Allow-Methods: GET[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Server: cloudflare[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "CF-RAY: 503c4ac93bbcc193-IAD[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-09 15:56:14 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2019-08-09 15:56:14 DEBUG headers:262 - << HTTP/1.1 200 OK
+2019-08-09 15:56:14 DEBUG headers:265 - << Date: Fri, 09 Aug 2019 19:56:13 GMT
+2019-08-09 15:56:14 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2019-08-09 15:56:14 DEBUG headers:265 - << Transfer-Encoding: chunked
+2019-08-09 15:56:14 DEBUG headers:265 - << Connection: keep-alive
+2019-08-09 15:56:14 DEBUG headers:265 - << Set-Cookie: __cfduid=d9c733f42da0ec2196310b54890b368fd1565380573; expires=Sat, 08-Aug-20 19:56:13 GMT; path=/; domain=.uinames.com; HttpOnly
+2019-08-09 15:56:14 DEBUG headers:265 - << X-Powered-By: PHP/5.4.45
+2019-08-09 15:56:14 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2019-08-09 15:56:14 DEBUG headers:265 - << Access-Control-Allow-Methods: GET
+2019-08-09 15:56:14 DEBUG headers:265 - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-09 15:56:14 DEBUG headers:265 - << Server: cloudflare
+2019-08-09 15:56:14 DEBUG headers:265 - << CF-RAY: 503c4ac93bbcc193-IAD
+2019-08-09 15:56:14 DEBUG headers:265 - << Content-Encoding: gzip
+2019-08-09 15:56:14 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2019-08-09 15:56:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2019-08-09 15:56:14 DEBUG wire:73 -  << "5a[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3],[0xc8][0xb1][0x9][0x80]@[0xc]@[0xd1]]~}[0x13][0xa4][0xb3]q[0x0]7[0x8][0x1a][0xce][0xc0]%[0x81][0x13]+qw[0x1b]_[0xf9][0x1e]R[0xc3][0x10][0x96][0xfd][0xf4][0xa0]q[0xdd][0xf3][0x9f][0xd5][0x87]G%[0x8d]ny[0xd8]D[0x8][0x1d]FcZ[0xf7]J[0x84][0xad]B[0xd3][0x95][0xf7][0x3][0x0][0x0][0xff][0xff][0x3][0x0][0x8]%jG[0x0][0x0][0x0]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "0[\r][\n]"
+2019-08-09 15:56:14 DEBUG wire:73 -  << "[\r][\n]"
+2019-08-09 15:56:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-09 15:56:14 INFO  loggingExample:34 - this is the after method
+2019-08-09 16:10:45 INFO  loggingExample:17 - this is the before method
+2019-08-09 16:10:45 INFO  loggingExample:23 - this is the test method: INFO
+2019-08-09 16:10:45 WARN  loggingExample:25 - this is the test method: WARN
+2019-08-09 16:10:47 INFO  loggingExample:34 - this is the after method
+2019-08-09 16:42:27 INFO  JsonPathExample:33 - 3
+2019-08-09 16:42:27 INFO  JsonPathExample:36 - 3
+2019-08-09 16:42:27 INFO  JsonPathExample:39 - [3, 4, 5]
+2019-08-09 17:06:50 INFO  JsonPathExample:33 - 3
+2019-08-09 17:06:50 INFO  JsonPathExample:36 - 3
+2019-08-09 17:06:50 INFO  JsonPathExample:39 - [3, 4, 5]
+2019-08-09 17:06:50 INFO  JsonPathExample:42 - 
+2019-08-09 17:06:50 INFO  JsonPathExample:47 - size: 3
+2019-08-09 17:06:50 INFO  JsonPathExample:48 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:07:25 INFO  JsonPathExample:33 - 3
+2019-08-09 17:07:25 INFO  JsonPathExample:36 - 3
+2019-08-09 17:07:25 INFO  JsonPathExample:39 - [3, 4, 5]
+2019-08-09 17:07:25 INFO  JsonPathExample:42 - harvard
+2019-08-09 17:07:25 INFO  JsonPathExample:47 - size: 3
+2019-08-09 17:07:25 INFO  JsonPathExample:48 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:12:55 INFO  JsonPathExample:34 - 3
+2019-08-09 17:12:55 INFO  JsonPathExample:37 - 3
+2019-08-09 17:12:55 INFO  JsonPathExample:40 - [3, 4, 5]
+2019-08-09 17:12:55 INFO  JsonPathExample:43 - harvard
+2019-08-09 17:12:55 INFO  JsonPathExample:48 - size: 3
+2019-08-09 17:12:55 INFO  JsonPathExample:49 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:12:55 INFO  JsonPathExample:55 - rooms
+2019-08-09 17:12:55 INFO  JsonPathExample:56 - [{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+2019-08-09 17:12:55 INFO  JsonPathExample:55 - name
+2019-08-09 17:12:55 INFO  JsonPathExample:56 - light-side
+2019-08-09 17:12:55 INFO  JsonPathExample:55 - id
+2019-08-09 17:12:55 INFO  JsonPathExample:56 - 3
+2019-08-09 17:17:04 INFO  JsonPathExample:34 - 3
+2019-08-09 17:17:04 INFO  JsonPathExample:37 - 3
+2019-08-09 17:17:04 INFO  JsonPathExample:40 - [3, 4, 5]
+2019-08-09 17:17:04 INFO  JsonPathExample:43 - harvard
+2019-08-09 17:17:04 INFO  JsonPathExample:48 - size: 3
+2019-08-09 17:17:04 INFO  JsonPathExample:49 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:17:04 INFO  JsonPathExample:55 - rooms
+2019-08-09 17:17:04 INFO  JsonPathExample:56 - [{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+2019-08-09 17:17:04 INFO  JsonPathExample:55 - name
+2019-08-09 17:17:04 INFO  JsonPathExample:56 - light-side
+2019-08-09 17:17:04 INFO  JsonPathExample:55 - id
+2019-08-09 17:17:04 INFO  JsonPathExample:56 - 3
+2019-08-09 17:18:20 INFO  JsonPathExample:34 - 3
+2019-08-09 17:18:20 INFO  JsonPathExample:37 - 3
+2019-08-09 17:18:20 INFO  JsonPathExample:40 - [3, 4, 5]
+2019-08-09 17:18:20 INFO  JsonPathExample:43 - harvard
+2019-08-09 17:18:20 INFO  JsonPathExample:48 - size: 3
+2019-08-09 17:18:20 INFO  JsonPathExample:49 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:18:20 INFO  JsonPathExample:55 - rooms
+2019-08-09 17:18:20 INFO  JsonPathExample:56 - [{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+2019-08-09 17:18:20 INFO  JsonPathExample:55 - name
+2019-08-09 17:18:20 INFO  JsonPathExample:56 - light-side
+2019-08-09 17:18:20 INFO  JsonPathExample:55 - id
+2019-08-09 17:18:20 INFO  JsonPathExample:56 - 3
+2019-08-09 17:18:20 INFO  JsonPathExample:62 - true
+2019-08-09 17:18:20 INFO  JsonPathExample:62 - harvard
+2019-08-09 17:18:20 INFO  JsonPathExample:62 - veritas
+2019-08-09 17:18:20 INFO  JsonPathExample:62 - 112
+2019-08-09 17:18:20 INFO  JsonPathExample:62 - false
+2019-08-09 17:18:20 INFO  JsonPathExample:62 - 6
+2019-08-09 17:23:44 INFO  JsonPathExample:34 - 3
+2019-08-09 17:23:44 INFO  JsonPathExample:37 - 3
+2019-08-09 17:23:44 INFO  JsonPathExample:40 - [3, 4, 5]
+2019-08-09 17:23:44 INFO  JsonPathExample:43 - harvard
+2019-08-09 17:23:44 INFO  JsonPathExample:48 - size: 3
+2019-08-09 17:23:44 INFO  JsonPathExample:49 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:23:44 INFO  JsonPathExample:55 - rooms
+2019-08-09 17:23:44 INFO  JsonPathExample:56 - [{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+2019-08-09 17:23:44 INFO  JsonPathExample:55 - name
+2019-08-09 17:23:44 INFO  JsonPathExample:56 - light-side
+2019-08-09 17:23:44 INFO  JsonPathExample:55 - id
+2019-08-09 17:23:44 INFO  JsonPathExample:56 - 3
+2019-08-09 17:23:44 INFO  JsonPathExample:62 - true
+2019-08-09 17:23:44 INFO  JsonPathExample:62 - harvard
+2019-08-09 17:23:44 INFO  JsonPathExample:62 - veritas
+2019-08-09 17:23:44 INFO  JsonPathExample:62 - 112
+2019-08-09 17:23:45 INFO  JsonPathExample:62 - false
+2019-08-09 17:23:45 INFO  JsonPathExample:62 - 6
+2019-08-09 17:23:45 INFO  JsonPathExample:69 - true
+2019-08-09 17:23:45 INFO  JsonPathExample:69 - harvard
+2019-08-09 17:23:45 INFO  JsonPathExample:69 - veritas
+2019-08-09 17:23:45 INFO  JsonPathExample:69 - 112
+2019-08-09 17:23:45 INFO  JsonPathExample:69 - false
+2019-08-09 17:23:45 INFO  JsonPathExample:69 - 6
+2019-08-09 17:25:22 INFO  JsonPathExample:34 - 3
+2019-08-09 17:25:22 INFO  JsonPathExample:37 - 3
+2019-08-09 17:25:22 INFO  JsonPathExample:40 - [3, 4, 5]
+2019-08-09 17:25:22 INFO  JsonPathExample:43 - harvard
+2019-08-09 17:25:22 INFO  JsonPathExample:48 - size: 3
+2019-08-09 17:25:22 INFO  JsonPathExample:49 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:25:22 INFO  JsonPathExample:55 - rooms
+2019-08-09 17:25:22 INFO  JsonPathExample:56 - [{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+2019-08-09 17:25:22 INFO  JsonPathExample:55 - name
+2019-08-09 17:25:22 INFO  JsonPathExample:56 - light-side
+2019-08-09 17:25:22 INFO  JsonPathExample:55 - id
+2019-08-09 17:25:22 INFO  JsonPathExample:56 - 3
+2019-08-09 17:25:22 INFO  JsonPathExample:62 - true
+2019-08-09 17:25:22 INFO  JsonPathExample:62 - harvard
+2019-08-09 17:25:22 INFO  JsonPathExample:62 - veritas
+2019-08-09 17:25:22 INFO  JsonPathExample:62 - 112
+2019-08-09 17:25:22 INFO  JsonPathExample:62 - false
+2019-08-09 17:25:22 INFO  JsonPathExample:62 - 6
+2019-08-09 17:25:22 INFO  JsonPathExample:69 - true
+2019-08-09 17:25:22 INFO  JsonPathExample:69 - harvard
+2019-08-09 17:25:22 INFO  JsonPathExample:69 - veritas
+2019-08-09 17:25:22 INFO  JsonPathExample:69 - 112
+2019-08-09 17:25:22 INFO  JsonPathExample:69 - false
+2019-08-09 17:25:22 INFO  JsonPathExample:69 - 6
