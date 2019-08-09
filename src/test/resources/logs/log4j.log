@@ -1,0 +1,7 @@
+2019-08-09 15:44:53 INFO  loggingExample:16 - this is the before method
+2019-08-09 15:44:53 INFO  loggingExample:22 - this is the test method
+2019-08-09 15:44:53 INFO  loggingExample:29 - this is the after method
+2019-08-09 15:49:49 INFO  loggingExample:16 - this is the before method
+2019-08-09 15:49:49 INFO  loggingExample:22 - this is the test method: INFO
+2019-08-09 15:49:49 WARN  loggingExample:24 - this is the test method: WARN
+2019-08-09 15:49:49 INFO  loggingExample:31 - this is the after method
