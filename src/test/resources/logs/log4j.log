@@ -181,3 +181,27 @@
 2019-08-09 17:25:22 INFO  JsonPathExample:69 - 112
 2019-08-09 17:25:22 INFO  JsonPathExample:69 - false
 2019-08-09 17:25:22 INFO  JsonPathExample:69 - 6
+2019-08-09 17:34:38 INFO  JsonPathExample:34 - 3
+2019-08-09 17:34:38 INFO  JsonPathExample:37 - 3
+2019-08-09 17:34:38 INFO  JsonPathExample:40 - [3, 4, 5]
+2019-08-09 17:34:38 INFO  JsonPathExample:43 - harvard
+2019-08-09 17:34:38 INFO  JsonPathExample:48 - size: 3
+2019-08-09 17:34:38 INFO  JsonPathExample:49 - [[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+2019-08-09 17:34:38 INFO  JsonPathExample:55 - rooms
+2019-08-09 17:34:38 INFO  JsonPathExample:56 - [{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+2019-08-09 17:34:38 INFO  JsonPathExample:55 - name
+2019-08-09 17:34:38 INFO  JsonPathExample:56 - light-side
+2019-08-09 17:34:38 INFO  JsonPathExample:55 - id
+2019-08-09 17:34:38 INFO  JsonPathExample:56 - 3
+2019-08-09 17:34:38 INFO  JsonPathExample:62 - true
+2019-08-09 17:34:38 INFO  JsonPathExample:62 - harvard
+2019-08-09 17:34:38 INFO  JsonPathExample:62 - veritas
+2019-08-09 17:34:38 INFO  JsonPathExample:62 - 112
+2019-08-09 17:34:38 INFO  JsonPathExample:62 - false
+2019-08-09 17:34:38 INFO  JsonPathExample:62 - 6
+2019-08-09 17:34:38 INFO  JsonPathExample:69 - true
+2019-08-09 17:34:38 INFO  JsonPathExample:69 - harvard
+2019-08-09 17:34:38 INFO  JsonPathExample:69 - veritas
+2019-08-09 17:34:38 INFO  JsonPathExample:69 - 112
+2019-08-09 17:34:38 INFO  JsonPathExample:69 - false
+2019-08-09 17:34:38 INFO  JsonPathExample:69 - 6
