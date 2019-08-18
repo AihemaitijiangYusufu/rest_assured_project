@@ -19,6 +19,7 @@ public class BookItRestUtility {
         response.then().log().all().
                 assertThat().statusCode(200);
         return  response.jsonPath().get("accessToken");
+
     }
 
 }
