@@ -5,6 +5,6 @@ public class class3 {
 
         System.out.println("class3");
 
-        System.out.println("conflict");
+        System.out.println("new conflict");
     }
 }
