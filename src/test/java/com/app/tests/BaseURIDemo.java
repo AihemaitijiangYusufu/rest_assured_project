@@ -49,4 +49,13 @@ public class BaseURIDemo {
 
 
     }
+
+    @Test
+    public void branQuotes(){
+
+        RestAssured.baseURI="https://got-quotes.herokuapp.com/";
+        Response response=RestAssured.get("quotes?char=bran");
+        response.prettyPrint();
+        Assert.assertTrue((response.asString().contains("Bran")));
+    }
 }
