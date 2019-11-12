@@ -6,5 +6,6 @@ public class class3 {
         System.out.println("class3");
 
         System.out.println("new conflict");
+        System.out.println("adding new conflict super duperdd");
     }
 }
